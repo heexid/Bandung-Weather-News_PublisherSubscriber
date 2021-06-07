@@ -5,13 +5,8 @@ from paho.mqtt import client as mqtt
 
 #listening suhu
 def getSuhu():
-    #generate random int mendapatkan suhu atau tidak
-    listening = ran.randint(0,1)
-
-    if listening == 1:
-        return ran.randint(12,31)
-    else:
-        return listening
+    #generate random int mendapatkan suhu
+    return ran.randint(12,31)
     
 #inisiasi topik
 TOPIK = 'Bandung_Weather_News'

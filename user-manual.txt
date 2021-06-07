@@ -1,0 +1,4 @@
+1. run mosquitto port=6969
+mosquitto.exe -p 6969
+
+2. run testing.bat
