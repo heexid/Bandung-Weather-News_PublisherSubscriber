@@ -18,7 +18,7 @@ def on_publish(client, userdata, mid):
 #inisiasi sensor
 sensor_1 = mqtt.Client('sensor_1')
 sensor_1.on_publish = on_publish
-sensor_1.connect('127.0.0.1', port=6969)
+sensor_1.connect('mqtt.eclipseprojects.io', port=1883)
 
 
 sensor_1.loop_start()

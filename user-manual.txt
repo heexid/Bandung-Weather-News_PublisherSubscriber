@@ -1,4 +1,6 @@
-1. run mosquitto port=6969
-mosquitto.exe -p 6969
+1. Locate mosquitto folder in cmd
+2. run mosquitto in cmd 
+mosquitto.exe -p 1883
 
-2. run testing.bat
+3. run sensor_start.bat in computer A as Publisher
+4. run sub_start.bat in computer B as subsciber

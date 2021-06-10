@@ -16,7 +16,7 @@ def on_message(client, user_data, msg):
 sub_1 = mqtt.Client('sub_1')
 sub_1.on_message = on_message
 
-sub_1.connect('127.0.0.1', port=6969)
+sub_1.connect('mqtt.eclipseprojects.io', port=1883)
 
 sub_1.loop_start()
 
