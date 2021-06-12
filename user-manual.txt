@@ -1,6 +1,22 @@
+---Simulasi 1
 1. Locate mosquitto folder in cmd
-2. run mosquitto in cmd 
-mosquitto.exe -p 1883
+2. run mosquitto in cmd (mosquitto.exe -p 1883)
+3. ganti broker pada setiap source code dengan address 127.0.0.1
+4. run sensor_x dan run sub_x
 
+---Simulasi 2
+1. Locate mosquitto folder in cmd
+2. run mosquitto in cmd (mosquitto.exe -p 1883)
 3. run sensor_start.bat in computer A as Publisher
 4. run sub_start.bat in computer B as subsciber
+
+
+#catatan
+!jika tidak bisa menggunakan port 1883, gunakan port 3333 (port custom)
+
+
+IF4206
+Luqman Haries (1301180072)
+Wanmudo Bagus (1301172495)
+Rakha Aditya Nugraha (1301174173)
+Nezar Abdillah (1301174326)
