@@ -12,7 +12,7 @@
 
 
 #catatan
-!jika tidak bisa menggunakan port 1883, gunakan port 3333 (port custom)
+!jika tidak bisa menggunakan port 1883, gunakan port 3333 (port custom) atau hapus
 
 
 IF4206
